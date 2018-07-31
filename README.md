@@ -1,35 +1,35 @@
-# react-native-public-ip
+# react-geo-ip
 
-> Get public IP address in React Native
+> Get public IP address and Country Code in React
 
-Using the [`ipify` API](https://www.ipify.org)
+Using the [`wipmania` API](http://api.wipmania.com/)
 
 
 ## Install
 
 ```
-$ npm install --save react-native-public-ip
+$ npm install --save react-geo-ip
 ```
 
 
 ## Usage
 
 ```js
-import publicIP from 'react-native-public-ip';
+import GeoIP from 'react-geo-ip';
 
-publicIP().then(ip => {
-	console.log(ip);
-	//=> '47.122.71.234'
+GeoIP().then(geoip => {
+	console.log(geoip);
+	//=> '47.122.71.234<br>CN'
 });
 ```
 
 
 ## API
 
-### publicIP()
+### GeoIP()
 
-Returns a `Promise` for the IP address.
+Returns a `Promise` for the IP address and Country Code.
 
 ## License
 
-MIT © Alex Hinson
+MIT © Loongwoo
