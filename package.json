@@ -1,0 +1,20 @@
+{
+  "name": "react-geo-ip",
+  "version": "1.0.0",
+  "description": "Get public IP address and country code in React",
+  "main": "index.js",
+  "keywords": ["ip", "ipv4", "ipv6", "address", "public", "external", "own", "country code"],
+  "peerDependencies": {
+    "react-native": ">=0.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loongwoo/react-geo-ip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Loongwoo/react-geo-ip/issues"
+  },
+  "author": "Loongwoo <xulongwu@kiwik.cn>",
+  "homepage": "https://github.com/Loongwoo/react-geo-ip",
+  "license": "MIT"
+}
